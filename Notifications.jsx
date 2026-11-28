@@ -1,5 +1,5 @@
 import { Trash2, CheckCheck } from "lucide-react";
-import { useApp, useList } from "../lib";
+import { useApp, useList } from "./lib";
 import { Card, Btn, Skel, Empty } from "../ui";
 
 export default function Notifications() {
