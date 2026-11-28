@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Download, Printer } from "lucide-react";
 import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer } from "recharts";
 import { useList, inr, today, iso } from "./lib";
-import { Card, Btn, Input, Select, Skel, Empty, Bar as Prog } from "../ui";
+import { Card, Btn, Input, Select, Skel, Empty, Bar as Prog } from "./ui";
 
 const n = new Date();
 const PRESETS = { Today: () => [today(), today()], "Last 7 days": () => [today(-6), today()], "Last 30 days": () => [today(-29), today()],
