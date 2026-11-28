@@ -1,0 +1,6 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-navy text-white antialiased; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+@media print {
+  aside, nav, button, input, select { display: none !important; }
+  * { background: transparent !important; color: #000 !important; border-color: #ccc !important; }
+}
