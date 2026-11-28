@@ -3,14 +3,14 @@ import { HashRouter, Routes, Route, Navigate, NavLink, Outlet, Link } from "reac
 import { LayoutDashboard, Receipt, PiggyBank, Target, LogOut, PanelLeft, Eye, EyeOff, Lightbulb, BarChart3, Bell, Settings as Cog } from "lucide-react";
 import { supabase, makeApi, Ctx, useApp, syncAlerts } from "./lib";
 import { Card, Btn, Input, Skel } from "./ui";
-import Dashboard from "./pages/Dashboard";
-import Expenses from "./pages/Expenses";
-import Budgets from "./pages/Budgets";
-import Goals from "./pages/Goals";
-import Insights from "./pages/Insights";
-import Analytics from "./pages/Analytics";
-import Notifications from "./pages/Notifications";
-import Settings from "./pages/Settings";
+import Dashboard from "./Dashboard";
+import Expenses from "./Expenses";
+import Budgets from "./Budgets";
+import Goals from "./Goals";
+import Insights from "./Insights";
+import Analytics from "./Analytics";
+import Notifications from "./Notifications";
+import Settings from "./Settings";
 
 class EB extends React.Component {
   state = { e: null };
