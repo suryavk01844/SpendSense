@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Trash2, Pencil, Plus } from "lucide-react";
-import { useApp, useList, inr } from "../lib";
-import { Card, Btn, Input, Field, Modal, Bar, Skel, Empty } from "../ui";
+import { useApp, useList, inr } from "./lib";
+import { Card, Btn, Input, Field, Modal, Bar, Skel, Empty } from "./ui";
 
 export default function Goals() {
   const { api, notify } = useApp();
