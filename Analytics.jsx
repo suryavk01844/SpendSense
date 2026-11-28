@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Download, Printer } from "lucide-react";
 import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer } from "recharts";
-import { useList, inr, today, iso } from "../lib";
+import { useList, inr, today, iso } from "./lib";
 import { Card, Btn, Input, Select, Skel, Empty, Bar as Prog } from "../ui";
 
 const n = new Date();
