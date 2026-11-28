@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { supabase, useApp } from "./lib";
-import { Card, Btn, Input, Field } from "../ui";
+import { Card, Btn, Input, Field } from "./ui";
 
 export default function Settings() {
   const { user, demo, notify, logout } = useApp();
