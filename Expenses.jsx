@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Sparkles, Pencil, Trash2, Plus } from "lucide-react";
 import { useApp, useList, suggest, inr, today, CATS, PAY } from "./lib";
-import { Card, Btn, Input, Select, Field, Modal, Skel, Empty } from "../ui";
+import { Card, Btn, Input, Select, Field, Modal, Skel, Empty } from "./ui";
 
 function Form({ init, onSave, onClose }) {
   const [f, setF] = useState(init), set = (k) => (e) => setF({ ...f, [k]: e.target.value });
