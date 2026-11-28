@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
 import { useList, inr, today, iso } from "./lib";
-import { Card, Skel, Empty } from "../ui";
+import { Card, Skel, Empty } from "./ui";
 
 const COLORS = ["#B6F36B", "#60A5FA", "#F472B6", "#FACC15", "#A78BFA", "#34D399", "#FB923C", "#22D3EE", "#94A3B8"];
 const tip = { contentStyle: { background: "#0B1220", border: "1px solid #ffffff22", borderRadius: 12 } };
