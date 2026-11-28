@@ -1,6 +1,6 @@
 import { Lightbulb } from "lucide-react";
-import { useList, inr, today, budgetSpent } from "../lib";
-import { Card, Skel, Empty } from "../ui";
+import { useList, inr, today, budgetSpent } from "./lib";
+import { Card, Skel, Empty } from "./ui";
 
 export default function Insights() {
   const [tx] = useList("transactions"), [bud] = useList("budgets");
