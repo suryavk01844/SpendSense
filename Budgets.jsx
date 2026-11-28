@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Trash2, Pencil, Plus } from "lucide-react";
-import { useApp, useList, inr, range, CATS } from "../lib";
-import { Card, Btn, Input, Select, Field, Modal, Bar, Skel, Empty } from "../ui";
+import { useApp, useList, inr, range, CATS } from "./lib";
+import { Card, Btn, Input, Select, Field, Modal, Bar, Skel, Empty } from "./ui";
 
 const level = (p) => (p >= 100 ? ["Budget exceeded", "#F87171"] : p >= 90 ? ["90% used", "#FB923C"] : p >= 75 ? ["75% used", "#FACC15"] : p >= 50 ? ["50% used", "#60A5FA"] : ["On track", "#B6F36B"]);
 
